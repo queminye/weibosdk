@@ -222,6 +222,6 @@ public class LoginButton extends Button implements OnClickListener
 	{
 		mContext = context;
 		setOnClickListener(this);
-		//setStyle(LOGIN_INCON_STYLE_1);
+		setStyle(LOGIN_INCON_STYLE_1);
 	}
 }

@@ -17,14 +17,12 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:drawable="@drawable/ic_com_sina_weibo_sdk_login_with_account_text_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_com_sina_weibo_sdk_login_with_account_text_normal"/>
+
     <!--
-    <item android:state_pressed="true"
-          android:drawable="@drawable/ic_com_sina_weibo_sdk_login_with_account_text_pressed" />
-
-    <item android:drawable="@drawable/ic_com_sina_weibo_sdk_login_with_account_text_normal" />
-    -->
-
     <item android:drawable="@drawable/login_btn_weibo" android:state_pressed="true"/>
     <item android:drawable="@drawable/login_btn_weibo"/>
+    -->
 
 </selector>
